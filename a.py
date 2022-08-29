@@ -83,13 +83,7 @@ class Main:
 
 		except Exception as e:
 			print(e)
-restart=input('do you wish to start again?-')
 
-
-if restart == 'y':
-Main()
-else: 
-     exit() 
      if __name__ == "__main__":
 	main = Main()
 	main.creator()
