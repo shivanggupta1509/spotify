@@ -17,7 +17,7 @@ script_info    = f'''
  
  --------
 '''
-def code():
+
 class Main:
 
 	def clear(self, text):
@@ -87,11 +87,10 @@ restart=input('do you wish to start again?-')
 
 
 if restart == 'y':
-
-     code()
+Main()
 else: 
      exit() 
      if __name__ == "__main__":
 	main = Main()
 	main.creator()
-code()
+
