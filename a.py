@@ -17,6 +17,7 @@ script_info    = f'''
  
  --------
 '''
+def code():
 class Main:
 
 	def clear(self, text):
@@ -82,7 +83,15 @@ class Main:
 
 		except Exception as e:
 			print(e)
+restart=input('do you wish to start again?-')
 
-if __name__ == "__main__":
+
+if restart == 'y':
+
+     code()
+else: 
+     exit() 
+     if __name__ == "__main__":
 	main = Main()
 	main.creator()
+code()
